@@ -3,7 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
+
+  max-width: 1200px;
+    margin: auto;
+  
 }
+
 
 body {
   background-color: #ffffff;
@@ -102,4 +107,72 @@ body {
 
 .hero-img {
   width: 460px;
+}
+/* ++++++++++++++++++++++++++ */
+/* Секция Passions */
+.passions {
+  margin-top: 140px;
+  margin-bottom: 100px;
+
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 60px;
+  
+}
+
+.title-regular {
+  font-weight: 400;
+  color: #14279b;
+
+  
+}
+
+.title-bold {
+  font-weight: 700;
+  color: #0e1e40;
+}
+
+.passions-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passion-card {
+  width: 345px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 25px 20px 35px 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.card-img-box {
+  height: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  max-height: 155px;
+  max-width: 230px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.card-bold {
+  font-weight: 700;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  color: #1e2538;
 }
