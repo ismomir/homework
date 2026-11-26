@@ -176,3 +176,107 @@ body {
   font-size: 16px;
   color: #1e2538;
 }
+/* ++++++++++++++++++++++++++++ */
+/* Секция Portfolio */
+.portfolio {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.portfolio-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-card {
+  width: 345px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 24px 20px 28px 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+.circle-bg {
+  position: absolute;
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.circle-purple {
+  top: 12px;
+  left: 55px;
+}
+
+.circle-blue {
+  top: 10px;
+  left: 35px;
+}
+
+.circle-gray {
+  top: 38px;
+  left: 85px;
+}
+
+.card-header {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  min-height: 76px;
+  margin-bottom: 14px;
+}
+
+.card-header-col {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.brand-icon {
+  width: 34px;
+  margin-right: 10px;
+}
+
+.sendpay-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #6c63ff;
+}
+
+.ecom-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #4ea8de;
+  line-height: 1.15;
+}
+
+.ecom-subtitle {
+  font-size: 15px;
+  color: #4ea8de;
+  align-self: flex-end;
+  margin-right: 28px;
+}
+
+.beats-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.15;
+}
+
+.beats-subtitle {
+  font-size: 12px;
+  color: #4b5563;
+}
+
+.project-preview {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
