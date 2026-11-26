@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1e2538;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  padding: 35px 20px;
+}
+
+/* Шапка */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+.logo {
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #0e1e40;
+}
+
+.logo-bold {
+  font-weight: 700;
+}
+
+.logo-light {
+  font-weight: 400;
+  color: #3a528c;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 18px;
+  color: #1e2538;
+}
+
+.nav-links span {
+  margin-right: 45px;
+}
+
+.btn-contact {
+  background-color: #608af5;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 14px 28px;
+  border-radius: 8px;
+}
+
+/* Главный экран */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  width: 52%;
+}
+
+.greeting {
+  font-size: 28px;
+  color: #0e1e40;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 46px;
+  line-height: 1.25;
+  color: #0e1e40;
+  font-weight: 700;
+  margin-bottom: 28px;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.65;
+  color: #1e2538;
+}
+
+.hero-right {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-img {
+  width: 460px;
+}
